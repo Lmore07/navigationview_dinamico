@@ -25,7 +25,6 @@
                 android:title="Dar de baja usuarios"/>
             <item
                 android:id="@+id/menu_opcion_2"
-
                 android:title="Dar de baja productos"/>
         </menu>
     </item>
