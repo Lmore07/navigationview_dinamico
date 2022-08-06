@@ -14,18 +14,13 @@ class MainActivity : AppCompatActivity() {
 
     fun click(v:View){
         val intent = Intent(this, MainActivity2::class.java);
-        val intent2 = Intent(this, MainActivity3::class.java);
+        //val intent2 = Intent(this, MainActivity3::class.java);
         val  usuario = findViewById<TextView>(R.id.usuario);
         val  password = findViewById<TextView>(R.id.password);
-        val user=usuario.text.toString();
-        if(usuario.text!="" && password.text!=""){
-            if (user == "administrador"){
-                startActivity(intent);
-            }else if (user == "cliente"){
-                startActivity(intent2);
-            }
-        }
-
-
+        val b = Bundle();
+        b.putString("user", usuario.text.toString());
+        b.putString("password", password.text.toString());
+        intent.putExtras(b);
+        startActivity(intent);
     }
 }
