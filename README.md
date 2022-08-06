@@ -7,7 +7,7 @@ Tenemos los usuario para el ingreso
 ![Image text](https://github.com/Lmore07/navigationview_dinamico/blob/master/usuarios.png)
 
 TAMBIÉN LOS MENÚS PARA CADA PERFIL
-![Image text](https://github.com/Lmore07/navigationview_dinamico/blob/master/menus.png)
+![Image text](https://github.com/Lmore07/navigationview_dinamico/blob/master/menus_roles.png)
 
 EMPEZAMOS INICIANDO SESIÓN CON EL USUARIO ADMINISTRADOR
 ![Image text](https://github.com/Lmore07/navigationview_dinamico/blob/master/admin_login.png)
