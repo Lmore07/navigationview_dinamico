@@ -12,11 +12,11 @@ TAMBIÉN LOS MENÚS PARA CADA PERFIL
 EMPEZAMOS INICIANDO SESIÓN CON EL USUARIO ADMINISTRADOR
 ![Image text](https://github.com/Lmore07/navigationview_dinamico/blob/master/admin_login.png)
 
-AL DAR CLICK EN EL BOTON NOS CARGARÁ EL NAVIGATION VIEW ASOCIADO AL ROL
+AL DAR CLICK EN EL BOTON NOS CARGARÁ DE FORMA DINÁMICA TODA LA INFORMACIÓN ASOCIADA A ESE ROL
 ![Image text](https://github.com/Lmore07/navigationview_dinamico/blob/master/admin_nav.png)
 
 AHORA INICIAMOS SESIÓN CON EL USUARIO CLIENTE
 ![Image text](https://github.com/Lmore07/navigationview_dinamico/blob/master/cliente_login.png)
 
-SE OBSERVA COMO MUESTRA UN NAVIGATION VIEW DIFERENTE ASIGNADO AL ROL DE CLIENTE
+AL DAR CLICK EN EL BOTON NOS CARGARÁ DE FORMA DINÁMICA TODA LA INFORMACIÓN ASOCIADA A ESE ROL
 ![Image text](https://github.com/Lmore07/navigationview_dinamico/blob/master/cliente_nav.png)
