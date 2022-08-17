@@ -106,14 +106,23 @@ class MainActivity2 : AppCompatActivity(),NavigationView.OnNavigationItemSelecte
     override fun onNavigationItemSelected(item: MenuItem): Boolean {
         var fragment: Fragment? = null
         when (item.title) {
+            "Ver Usuarios" -> {
+                fragment= Fragment(R.layout.fragment_ver_usuarios)
+            }
+            "Ver Inventario" -> {
+                fragment= Fragment(R.layout.fragment_ver_inventario)
+            }
+            "Ver Pedidos" -> {
+                fragment= Fragment(R.layout.fragment_ver_pedidos)
+            }
             "Mi Cuenta" -> {
-
+                fragment= Fragment(R.layout.fragment_mi_cuenta)
             }
-            "R.id.menu_seccion_2" -> {
-
+            "Mis pedidos" -> {
+                fragment= Fragment(R.layout.fragment_mispedidos)
             }
-            "R.id.menu_seccion_3" -> {
-
+            "Comprar" -> {
+                fragment= Fragment(R.layout.fragment_comprar)
             }
             "Cerrar Sesión" ->{
                 val intent = Intent(this, MainActivity::class.java);

@@ -14,9 +14,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Navigationview_dinamico"
         tools:targetApi="31">
-        <activity
-            android:name=".MainActivity3"
-            android:exported="false" />
+
         <activity
             android:name=".MainActivity2"
             android:exported="false" />
